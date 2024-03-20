@@ -1,0 +1,18 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+/*This is for the header section*/
+#header{
+    background-color: #350827;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Adjust padding as needed */
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+#header-title {
+    margin: 0; /* Remove default margin */
+}
