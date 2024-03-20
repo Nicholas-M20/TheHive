@@ -24,7 +24,7 @@
     margin-left: 35%;
     overflow: hidden;
   }
-  
+
   .nav a {
     color: #160202;
     text-decoration: none;
@@ -35,6 +35,7 @@
     display: flex;
     margin-left: 20px;
   }
+  
   .nav a.active{
     background-color: cadetblue;
     color: white;
