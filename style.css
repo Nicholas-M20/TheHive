@@ -1,95 +1,4 @@
-
 /*This edits the format of the whole page*/
-
-/*This edits the general format of the footer*/
-footer{
-        margin-top: auto;
-        background-color: #350827;
-    }
-/*This formats whatever is contained in the footer*/
-.footerContainer{ width: 100%;
-    height: fit-content;
-    max-height: fit-content;
-    padding: 70px 30px 20px;
-}
-/*This formats the code in the socialIcons class of the footer*/
-.socialIcons{
-    display: flex;
-    justify-content: center;
-}
-
-.socialIcons a{
-    text-decoration: none;
-    padding: 10px;
-    background-color: #000000;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.socialIcons a i{
-    font-size: medium;
-    color: #350827;
-    opacity: 0.9; 
-}
-/*Hover Effects on the social media icons */
-.socialIcons a:hover{
-    background-color: #5A5A5A;
-    transition: 0.5s;
-}
-.socialIcons a:hover{
-    color: #000000;
-    transition: 0.5s;
-}
-/*This formats the text in the navigation class of the footer*/
-.footerNav{
-    margin: 30px 0;
-}
-.footerNav ul{
-     display: flex;
-     justify-content: center;
-     list-style-type: none;
-}
-.footerNav ul li a{
-    color: #000000;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.5;
-    transition: 0.5s;
-}
-.footerNav ul li a:hover{
-    opacity:1;
-}
-/*This formats the code in the bottom class of the footer.*/
-.footerBottom{
-    background-color: #2c091c;
-    padding: 20px;
-    text-align: center;
-}
-.footerBottom p{
-    color: #000000;
-}
-/*This formats the content in the designer class of the footer*/
-.designer{
-    opacity: 0.7;
-    text-transform:uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
-}
-/*This edits the footer to be balanced even on a mobile device*/
-@media (max-width: 700px){
-    .footerNav ul{
-        flex-direction: column;
-    }
-    .footerNav ul li{
-        width: 100%;
-        text-align: center;
-        margin: 10px;
-    }
-
-}
-
 *, :after, :before {
     padding: 0;
     margin: 0;
@@ -111,14 +20,14 @@ footer{
 #header-title {
     margin: 0; /* Remove default margin */
 }
-/*This is for the nav bar*/
+/*This is for the navigation bar*/
 .nav {
     list-style: none;
     justify-content: center;
     margin-left: 35%;
     overflow: hidden;
   }
-  
+
   .nav a {
     color: #160202;
     text-decoration: none;
@@ -129,8 +38,107 @@ footer{
     display: flex;
     margin-left: 20px;
   }
+  
   .nav a.active{
     background-color: #5F9EA0;
     color: #000000;
   }
 
+/*This edits the general format of the footer*/
+footer{
+        margin-top: auto;
+        background-color: #350827;
+    }
+/*This formats whatever is contained in the footer*/
+.footerContainer{ width: 100%;
+    height: fit-content;
+    max-height: fit-content;
+    padding: 70px 30px 20px;
+}
+
+/*This formats the code in the socialIcons class of the footer*/
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #000000;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: medium;
+    color: #350827;
+    opacity: 0.9; 
+}
+
+/*Hover Effects on the social media icons */
+.socialIcons a:hover{
+    background-color: #5A5A5A;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover{
+    color: #000000;
+    transition: 0.5s;
+}
+
+/*This formats the text in the navigation class of the footer*/
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+     display: flex;
+     justify-content: center;
+     list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: #000000;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity:1;
+}
+
+/*This formats the code in the bottom class of the footer.*/
+.footerBottom{
+    background-color: #2c091c;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: #000000;
+}
+
+/*This formats the content in the designer class of the footer*/
+.designer{
+    opacity: 0.7;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+/*This edits the footer to be balanced even on a mobile device*/
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
