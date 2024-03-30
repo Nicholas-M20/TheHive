@@ -8,7 +8,7 @@
 /*This is for the header section*/
 #header{
     background-color: #350827;
-    color: #000000;
+    color: #fff;
     text-align: center;
     padding: 20px 0; /* Adjust padding as needed */
     width: 100%;
@@ -99,7 +99,7 @@ footer{
 }
 
 .footerNav ul li a{
-    color: #000000;
+    color: #fff;
     margin: 20px;
     text-decoration: none;
     font-size: 1.3em;
@@ -119,7 +119,7 @@ footer{
 }
 
 .footerBottom p{
-    color: #000000;
+    color: #fff;
 }
 
 /*This formats the content in the designer class of the footer*/
@@ -141,4 +141,84 @@ footer{
         text-align: center;
         margin: 10px;
     }
+}
+
+/*The image slide code*/
+
+
+/* styles.css */
+.suites-container {
+    display: flex; /* Use flexbox to manage child divs */
+    flex-wrap: wrap;
+    position:relative;
+    width: 100%;
+    padding:20px 120px;
+    /*padding-right:120px;*/
+    height:650px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.essential-container {
+    flex:1;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    float:left;
+    /*border-radius:15px 50px;*/
+    bottom:0;
+}
+
+.executive-container {
+    flex:1;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    float:right;
+    /*border-radius:15px 50px;*/
+    bottom:0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.book {
+    background-color: #350827;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.seemore {
+    background-color: #fff;
+    color: #350827;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
 }
