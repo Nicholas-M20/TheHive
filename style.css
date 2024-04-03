@@ -155,7 +155,7 @@ contactContainer{
 }
 
 .mapImage{
-    background-color: aqua;
+    /*background-color: aqua;*/
     width: 55%;
     margin: 0 auto;
     height: 800px;
@@ -466,3 +466,94 @@ img {
     padding-right: 15%;
     align-content: baseline;
   }
+
+  /*This CSS is for the Singular rooms*/
+  header {
+  /*background-color: #350827;*/
+  color: #350827;
+  padding: 20px;
+  text-align: center;
+}
+
+.room-images {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.room-images img {
+  width: 45%;
+  max-width: 400px;
+}
+
+.room-description {
+  padding: 0 20px;
+}
+
+.booking-form {
+  padding: 20px 500px 20px 500px;
+  background-color: #f9f9f9;
+}
+
+.booking-form h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color:#350827;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color:#350827;
+}
+
+/This formats the form submit button./
+.formbutton {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.formbutton[type="submit"]{
+    width: 80%;
+    position: relative;
+    font-size: 25px;
+    font-weight: 600px;
+    margin-top: 10px;
+    background-color: #350827;
+    padding: 20px 30px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block;
+
+}
+.formbutton[type="submit"]:hover{
+    background-color: #532345;
+    transition: 0.5s;:active
+}
+.formbutton[type="submit"]:active{
+    color: #252424;
+}
+/*
+/*.suitesContent{
+    width :100%;
+    height: 800px;
+    /*display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}*/
