@@ -156,8 +156,8 @@ footer{
     /*padding-right:120px;*/
     height:650px;
     margin-bottom: 20px;
-    border-style: solid;
-    border-color: #000;
+    /*border-style: solid;
+    border-color: #000;*/
 }
 
 .essential-container {
@@ -222,3 +222,29 @@ img {
     cursor: pointer;
     font-size: 16px;
 }
+
+/*suites css introduction by Nicholas*/
+  .intro{
+    text-align: justify;
+  }
+  .suites{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    margin-right: 20%;
+    
+  }
+  .section-header{
+    float: left;
+    font-size: x-large;
+    padding-left: 15%;
+
+  }
+  .description{
+    float: right;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 10%;
+    padding-right: 15%;
+    align-content: baseline;
+  }
