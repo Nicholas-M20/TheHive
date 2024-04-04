@@ -52,6 +52,7 @@ contactContainer{
     height: fit-content;
     max-height: fit-content;
     background-color: #FFFFFF;
+    color: #350827;
 }
 /*This formats the Contact heading on the contact page.*/
 .contactheader{
@@ -64,6 +65,7 @@ contactContainer{
     padding-top:80px ;
     padding: bottom 20px;
     padding-right:30px ;
+    color: #350827;
 }
 /*This formats the introductory image and description on the contact page*/
 .briefdescription{
@@ -130,6 +132,7 @@ contactContainer{
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #350827;
     background-color: rgb(239, 239, 234);
 }
 /*This formats the data on the left the map*/
@@ -144,13 +147,13 @@ contactContainer{
 .mapdescription h1{
     text-align: left;
     font-weight:  20px;
-    font-size: 25px;
+    font-size: 35px;
     position: relative;
 }
 .mapdescription p{
     text-align: left;
     font-weight:  20px;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
 }
 
@@ -178,13 +181,15 @@ contactContainer{
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    color: #350827;
 }
 .contactformIntro{
     float: left;
     width:30%;
     padding-left: 20px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 }
@@ -248,6 +253,7 @@ contactContainer{
     padding-top: 30px;
     padding-bottom: 20px;
     background-color: rgb(239, 239, 234);
+    color: #350827;
 }
 .AdditionalInfo i{
     color: #350827 ;
