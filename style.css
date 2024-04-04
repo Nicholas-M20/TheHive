@@ -186,49 +186,52 @@ contactContainer{
     padding-left: 20px;
     padding-top: 30px;
 }
-.contactformIntro h1{
 
 }
 .contactformArea{
     float: right;
     width:60%;
-    padding-left: 30px;
+    padding-left: 80px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 40px;
 }
-.input{
+.input[type="text"]{
     width: 70%;
+    height: 20px;
     padding: 10px;
     font-size: 20px;
 }
 
 .textarea{
+    display: inline-block;
     width: 200px;
     height: 200px;
+
 }
 /*This formats the form submit button.*/
-.button {
+.formbutton {
     border: none;
     outline: none;
     background: none;
     cursor: pointer;
 }
 
-.button[type="submit"]{
+.formbutton[type="submit"]{
     width: 80%;
     position: relative;
-    color: #FFFFFF;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600px;
-    color: #350827;
+    margin-top: 10px;
+    background-color: #350827;
     padding: 20px 30px;
     text-align: center;
-    display: inline-flex;
+    color: #FFFFFF;
+    display: inline-block;
 
 }
-.button[type="submit"]:hover{
-    color: #5A5A5A;
+.formbutton[type="submit"]:hover{
+    background-color: #532345;
     transition: 0.5s;:active
 }
 .button[type="submit"]:active{
