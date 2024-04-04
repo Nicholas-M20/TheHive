@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Executive</title>
 </head>
 <body>
     <div id="content">
@@ -15,10 +15,52 @@
             <p class="header-title">Where Opulence Meets Hospitality</p>
         </header>
         <div class="nav">
-            <a href="Overview.html">Overview</a>
-            <a href="Suits.html">Suites</a>
-            <a href="Contacts.html">Contact</a>
+            <a href="Overview.html" target="_blank">Overview</a>
+            <a href="Suites.html" target="_blank">Suites</a>
+            <a href="Contacts.html" target="_blank">Contact</a>
         </div>
+        <div class="suitesContent">
+    <header>
+    <h1>Executive Room</h1>
+  </header>
+
+  <section class="room-images">
+    <img src="dont crack.jpg" alt="Executive Room Image 1">
+    <img src="dont crack.jpg" alt="Executive Room Image 2">
+  </section>
+
+  <section class="room-description">
+    <h2>Description</h2>
+    <p>The executive room offers luxurious accommodations with modern amenities. Enjoy breathtaking views and exceptional comfort during your stay.</p>
+  </section>
+
+  <section class="booking-form">
+    <h2>Book Now</h2>
+    <form action="#" method="post" id="executiveForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="check-in">Check-in Date:</label>
+        <input type="date" id="check-in" name="check-in" required>
+      </div>
+      <div class="form-group">
+        <label for="check-out">Check-out Date:</label>
+        <input type="date" id="check-out" name="check-out" required>
+      </div>
+      <div class="form-group">
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+      </div>
+      <button class="formbutton" type="submit">Submit</button>
+    </form>
+  </section>
+  </div>
         <footer>
         <div class="footerContainer">
             <div class="socialIcons">
@@ -35,6 +77,8 @@
                     <li><a href="">Contact Us</a></li>  
                 </ul>
             </div>
+             
+
             <div class="footerBottom">
                 <p>Copyright &copy;2024; Designed by <span class="designer">GROUP W</span></p>
             </div>
